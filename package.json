@@ -10,8 +10,8 @@
     "test": "node -r babel-register test/index.js",
     "upgrade": "yarn-upgrade-all && cp node_modules/font-awesome/css/font-awesome.css src/ && sed -i '' 's%../fonts/%https://cdn.jsdelivr.net/fontawesome/latest/fonts/%g' src/font-awesome.css"
   },
-  "repository": "git@github.com:tylingsoft/markdown-it-icons.git",
-  "author": "Tyler Long <tyler4long@gmail.com>",
+  "repository": "git@github.com:lucasbrito-wdt/markdown-it-icons.git",
+  "author": "Lucas Brito <luquinhasbritogba@hotmail.com>",
   "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.26.0",
