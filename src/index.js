@@ -32,6 +32,14 @@ const iconsPlugin = (md, name) => {
         replace: (match) => `<i class="fa ${match.slice(1, -1)}"></i>`
       }
       break
+    case 'tabler':
+      const regex = new RegExp(`(:tabler-(?:[a-z0-9-]+):)`
+      options = {
+        name,
+        regex,
+        replace: (match) => `<i class="tabler-${match.slice(1, -1)}"></i>`
+      }
+      break
     default:
       return
   }
